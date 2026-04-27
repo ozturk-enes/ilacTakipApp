@@ -1,6 +1,8 @@
-# Welcome to your Expo app 👋
+# ilacTakip
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Sporcular, düzenli ilaç kullanan hastalar ve diyet yapan kullanıcılar için ilaç / takviye ve günlük su takibi yapan Expo (React Native) uygulaması. Belirli günlere doz planlama, günde birden fazla doz, hatırlatma saatleri ve not/yan etki takibi destekler.
+
+Expo Router + Zustand + AsyncStorage üzerine kurulu. Telefon ve tablete responsive.
 
 ## Get started
 

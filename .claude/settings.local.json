@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --input-type=module)",
+      "Bash(xargs head:*)",
+      "Bash(node -e \"const fs=require\\('fs'\\); const files=['src/store/useAppStore.js','src/hooks/useHealthStats.js','src/components/stats/BarChart.jsx','app/\\(tabs\\)/statistics.jsx']; files.forEach\\(f => { try { const c=fs.readFileSync\\(f,'utf8'\\); console.log\\(f+': '+c.split\\('\\\\n'\\).length+' lines OK'\\); } catch\\(e\\) { console.log\\(f+': ERROR '+e.message\\); } }\\);\")",
+      "Bash(node -e ':*)",
+      "Bash(\"C:/Program Files/Android/Android Studio/jbr/bin/java\" -version)",
+      "Bash(export JAVA_HOME=\"C:/Program Files/Android/Android Studio/jbr\")",
+      "Bash(npx expo *)",
+      "Bash(\"C:/Users/enesc/AppData/Local/Android/Sdk/platform-tools/adb.exe\" devices *)"
+    ]
+  }
+}
